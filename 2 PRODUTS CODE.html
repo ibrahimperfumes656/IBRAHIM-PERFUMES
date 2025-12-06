@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBRAHIM PERFUMES</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f2f2f2; }
+    .header { 
+        text-align:center; 
+        padding:25px 20px; 
+        background:#000;  
+        color:#fff; 
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+    .header h1 { font-size:30px; font-weight:bold; margin:10px 0; letter-spacing:1px; }
+    .header img { max-width:130px; border-radius:8px; }
+
+    .products-container { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; padding:20px; }
+
+    .product-card { 
+        width: 400px; 
+        background: linear-gradient(135deg, #ffffff, #fdf6e3); 
+        border-radius:15px; 
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+        overflow:hidden; 
+        transition: transform 0.3s ease;
+    }
+    .product-card:hover { transform: translateY(-5px); }
+    .product-card img { width:100%; height:auto; border-bottom:1px solid #eee; }
+    .product-info { padding:25px 20px; text-align:center; }
+    .product-info h2 { margin:15px 0; color:#333; font-size:22px; }
+    .product-info p { color:#555; font-size:15px; margin:12px 0; line-height:1.6; text-align:left; }
+    .product-info .price { font-size:20px; font-weight:bold; color:#e74c3c; margin:18px 0; }
+    .buy-btn { display:inline-block; padding:14px 30px; background:#25D366; color:#fff; border-radius:8px; text-decoration:none; font-weight:bold; font-size:16px; transition: background 0.3s ease; }
+    .buy-btn:hover { background:#128C7E; }
+
+    @media(max-width:480px) { 
+        .product-card { width:100%; }
+        .header h1 { font-size:24px; }
+        .product-info h2 { font-size:20px; }
+        .buy-btn { padding:12px 25px; font-size:15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="https://i.ibb.co/mF86s8Ly/Whats-App-Image-2025-12-06-at-15-02-30.jpg" alt="IBRAHIM PERFUMES Logo">
+    <h1>IBRAHIM PERFUMES</h1>
+  </div>
+
+  <div class="products-container">
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://i.ibb.co/VYzDsNVJ/image-2025-12-06-145249258.png" alt="ROYAL PLEDGE 50ml">
+      <div class="product-info">
+        <h2>ROYAL PLEDGE 50ml</h2>
+        <p>
+          Top Notes: Bitter Orange, Mandarin, Bergamot, Caraway, Artemisia<br>
+          Heart Notes: Cardamom Seed, Pepper, Ginger, Iris, Jasmine, Juniper<br>
+          Base Notes: Vetiver, Cedarwood, Oakmoss, Amber, Leather<br><br>
+          ROYAL PLEDGE begins with a crisp, vibrant burst of citrus and aromatic green notes, setting the stage with strength and clarity. At its heart, refined spices and florals mingle — cardamom and pepper bring richness while iris and jasmine add elegance. The dry-down leaves a legacy of woods and amber intertwined with soft leather and moss, creating a trail that is both bold and profoundly refined.<br><br>
+          Designed for every individual who doesn’t just make a statement — they live it.<br>
+          ROYAL PLEDGE — Own the Moment. Inscribe Your Legacy.
+        </p>
+        <div class="price">1999/-Pkr</div>
+        <a href="https://wa.me/923254555088?text=I'm%20interested%20in%20ROYAL%20PLEDGE%2050ml" class="buy-btn">Buy Now via WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+  <img src="https://i.ibb.co/TMJff17g/SOVERGN-CRAV.png" alt="SOVEREIGN CRAV 50ml">
+  <div class="product-info">
+    <h2>SOVEREIGN CRAV (Creed Aventus) 50ml</h2>
+    <p>
+      Top Notes: Bergamot, Black Currant, Apple, Pineapple<br>
+      Heart Notes: Jasmine, Patchouli, Birch<br>
+      Base Notes: Oakmoss, Ambergris, Musk<br><br>
+      Sovereign Crav opens with a bold burst of juicy pineapple and crisp apple layered over fresh bergamot and black currant — a vibrant statement of presence. The heart evolves into refined depths of jasmine and patchouli anchored by smoky birch, transitioning into a powerful base of oakmoss, ambergris and musk that leaves an enduring, iconic trail.<br>
+      For those who aim to leave a legendary impression, Sovereign Crav makes that statement clear.<br>
+      (SOVEREIGN CRAV — Elevate your essence. Command every moment)
+    </p>
+    <div class="price">1599/-Pkr</div>
+    <a href="https://wa.me/923254555088?text=I'm%20interested%20in%20SOVEREIGN%20CRAV%2050ml" class="buy-btn">Buy Now via WhatsApp</a>
+  </div>
+</div>
+
+  </div>
+
+</body>
+</html>
